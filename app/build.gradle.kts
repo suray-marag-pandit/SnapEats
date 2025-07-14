@@ -71,11 +71,11 @@ dependencies {
     implementation("com.github.bumptech.glide:compose:1.0.0-alpha.1")
 
     // Material Icons for Jetpack Compose
-    implementation("androidx.compose.material:material-icons-extended:1.7.0") // Check your Compose version, adjust if needed
+    implementation("androidx.compose.material:material-icons-extended:1.6.7") // Check your Compose version, adjust if needed
 
     // Hilt for Dependency Injection
-    implementation("com.google.dagger:hilt-android:2.50")
-    kapt("com.google.dagger:hilt-android-compiler:2.50")
+    implementation("com.google.dagger:hilt-android:2.56.2")
+    kapt("com.google.dagger:hilt-android-compiler:2.56.2")
 
     // Hilt Navigation for Compose
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
@@ -92,8 +92,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1")
 
     // Pager and Pager Indicators (Accompanist)
-    implementation("com.google.accompanist:accompanist-pager:0.28.0")
-    implementation("com.google.accompanist:accompanist-pager-indicators:0.28.0")
+    implementation("com.google.accompanist:accompanist-pager:0.34.0")
+    implementation("com.google.accompanist:accompanist-pager-indicators:0.34.0")
 
 // Payment Gateway (Razorpay)
     implementation("com.razorpay:checkout:1.6.40")
@@ -102,7 +102,7 @@ dependencies {
     implementation("com.canopas.compose-animated-navigationbar:bottombar:1.0.1")
 
 // Lottie Animations for Compose (e.g., Place Order Dialog)
-    implementation("com.airbnb.android:lottie-compose:4.2.0")
+    implementation("com.airbnb.android:lottie-compose:6.1.0")
 
 // System UI Controller (Accompanist)
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.32.0")
