@@ -1,7 +1,6 @@
 package com.example.snapeats.presentation.components
 
-import android.R.attr.clickable
-import android.R.attr.elevation
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
